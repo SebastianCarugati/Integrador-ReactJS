@@ -1,0 +1,32 @@
+.button {
+    display: flex;
+    width: 20%;
+    height: 1.5rem;
+    margin: 20px;
+    border-radius: .25rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: red;
+    color: #fff;
+    transition: background-color .15s ease-in-out;
+    font-size: 1rem;
+    
+}
+
+.contenedor-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 20%;
+}
+
+.button:hover{
+    background-color: #E17979;
+}
+
+.button:active{
+    background-color: #0062cc;   
+}
+
+.title {
+    color: black;
+}
